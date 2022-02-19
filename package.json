@@ -1,0 +1,19 @@
+{
+  "name": "kinokarnalog",
+  "version": "1.0.0",
+  "description": "Сайт-каталог для приятного времяпрепровождения в кругу близких людей за просмотром увлекательных и захватывающих видеоматериалов(фильмов)",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algorithm-ssau/KinoKarnaLog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algorithm-ssau/KinoKarnaLog/issues"
+  },
+  "homepage": "https://github.com/algorithm-ssau/KinoKarnaLog#readme"
+}
