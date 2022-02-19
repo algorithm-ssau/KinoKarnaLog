@@ -2,9 +2,10 @@
   "name": "kinokarnalog",
   "version": "1.0.0",
   "description": "Сайт-каталог для приятного времяпрепровождения в кругу близких людей за просмотром увлекательных и захватывающих видеоматериалов(фильмов)",
-  "main": "node.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/algorithm-ssau/KinoKarnaLog/issues"
   },
-  "homepage": "https://github.com/algorithm-ssau/KinoKarnaLog#readme"
+  "homepage": "https://github.com/algorithm-ssau/KinoKarnaLog#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
