@@ -8,6 +8,7 @@ const PORT=config.get('port')||5000
 
 async function start(){
     try{
+    console.log(a)
     await mongoose.connect(config.get('mongoUri'),{})
     app.listen(PORT,() =>console.log('PORT:'+PORT))
     }
