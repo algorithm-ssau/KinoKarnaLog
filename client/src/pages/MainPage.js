@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 // // import {useHttp} from '../hooks/http.hook'
 // // import {useMessage} from '../hooks/message.hook'
   import {AuthContext} from '../context/AuthContext'
+  import {Navbar} from '../Navbar'
 
  export const MainPage = () => {
   const auth = useContext(AuthContext)
@@ -21,9 +22,9 @@ import {Link} from 'react-router-dom'
 //     clearError()
 //   }, [error, message, clearError])
 
-//   useEffect(() => {
-//     window.M.updateTextFields()
-//   }, [])
+  useEffect(() => {
+    window.M.updateTextFields()
+  }, [])
 
 //   const changeHandler = event => {
 //     setForm({ ...form, [event.target.name]: event.target.value })
@@ -44,19 +45,30 @@ import {Link} from 'react-router-dom'
   }
 
   return (
-      <div>
-          <h1>MainPage</h1>
-          <div className="card-action">
-            <button
-              className="btn yellow darken-4"
-              style={{marginRight: 10}}
-              onClick={logoutHandler}
-            >
-              Выйти
-            </button>
-            </div>
-            <Link to="/check">Check </Link>
+    <html>
+          <head>
+            <style>
+            
+          
+            </style>
+          </head>
+    
+          <Navbar text = "Click me"/>
+          
+          <header>
+          <div style={{padding: '10px 200px 0px'}}>
+            
 
-   </div>
+
+                    </div>
+          </header>
+
+          <div style={{padding: '10px 200px 0px'}}>
+            <h1>MainPage</h1>
+            </div>
+            
+          </html>
+          
+      
   )
 }

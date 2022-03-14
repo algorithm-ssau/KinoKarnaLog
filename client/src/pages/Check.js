@@ -36,16 +36,8 @@ import { useAuth } from '../hooks/auth.hook'
 
 
   return (
-      <div>
-          <h1>CheckPage</h1>
-          <div className="card-action">
-            <button
-              className="btn yellow darken-4"
-              style={{marginRight: 10}}
-            >
-              Выйти
-            </button>
-            </div>
-   </div>
+    <div>
+      <h1>CHECKPAGE</h1>
+    </div>
   )
 }

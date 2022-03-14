@@ -16,9 +16,9 @@
     clearError()
   }, [error, message, clearError])
 
-//   useEffect(() => {
-//     window.M.updateTextFields()
-//   }, [])
+  useEffect(() => {
+    window.M.updateTextFields()
+  }, [])
 
   const changeHandler = event => {
     setForm({ ...form, [event.target.name]: event.target.value })
@@ -40,8 +40,16 @@
   }
 
   return (
-      
-     <div className="row">
+    
+    <html>
+          <head>
+            <style>
+            
+          
+            </style>
+          </head>
+          <body bgcolor="#c0c0c0" >
+          <div className="row">
        <div className="col s6 offset-s3">
          <div className="card blue darken-1">
            <div className="card-content white-text">
@@ -96,5 +104,16 @@
         </div>
       </div>
     </div>
+          </body>
+          </html>
+
+
+
+
+
+
+     
   )
 }
+
+
