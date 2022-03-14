@@ -43,6 +43,18 @@ import { TrillersPage } from './pages/Trillers'
     <Routes>
       <Route path="/" element={<AuthPage/>}/>
       <Route path="/main" element={<Navigate to="/"/>}/>
+      <Route path="/comedy" element={<Navigate to="/"/>}/>
+      <Route path="/boeviki" element={<Navigate to="/"/>}/>
+      <Route path="/drama" element={<Navigate to="/"/>}/>
+      <Route path="/fairytales" element={<Navigate to="/"/>}/>
+      <Route path="/fantasy" element={<Navigate to="/"/>}/>
+      <Route path="/fears" element={<Navigate to="/"/>}/>
+      <Route path="/melodrama" element={<Navigate to="/"/>}/>
+      <Route path="/musicl" element={<Navigate to="/"/>}/>
+      <Route path="/romantik" element={<Navigate to="/"/>}/>
+      <Route path="/science" element={<Navigate to="/"/>}/>
+      <Route path="/sport" element={<Navigate to="/"/>}/>
+      <Route path="/trillers" element={<Navigate to="/"/>}/>
     </Routes>
   )
 }
