@@ -2,6 +2,7 @@
  import {useHttp} from '../hooks/http.hook'
  import {useMessage} from '../hooks/message.hook'
  import {AuthContext} from '../context/AuthContext'
+ import {Logo} from '../Logo'
 
  export const AuthPage = () => {
    const auth = useContext(AuthContext)
@@ -49,9 +50,10 @@
             </style>
           </head>
           <body bgcolor="#c0c0c0" >
+            <Logo text = "KinoKarnaLog"/>
           <div className="row">
        <div className="col s6 offset-s3">
-         <div className="card blue darken-1">
+         <div className="card black darken-1">
            <div className="card-content white-text">
              <span className="card-title">Авторизация</span>
              <div>

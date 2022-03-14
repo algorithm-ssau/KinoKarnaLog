@@ -4,6 +4,7 @@ import { useAuth } from '../hooks/auth.hook'
 // // import {useHttp} from '../hooks/http.hook'
 // // import {useMessage} from '../hooks/message.hook'
   import {AuthContext} from '../context/AuthContext'
+  import {Navbar} from '../Navbar'
 
  export const CheckPage = () => {
   const auth = useContext(AuthContext)
@@ -36,8 +37,16 @@ import { useAuth } from '../hooks/auth.hook'
 
 
   return (
-    <div>
-      <h1>CHECKPAGE</h1>
-    </div>
+    <html>
+          <Navbar text = "Click me"/>
+          <header>
+          <div style={{padding: '10px 200px 0px'}}>
+                    </div>
+          </header>
+          <div style={{padding: '10px 200px 0px'}}>
+            <h1>Комедии</h1>
+            </div>
+            
+          </html>
   )
 }

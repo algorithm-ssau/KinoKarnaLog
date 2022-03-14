@@ -17,8 +17,20 @@ const Navbar = (props) => {
     return(
     <div className={styles.myclass}>
         <Link  className={styles.myclass2} to="/main" >KinoKarnaLog</Link>
-        <Link  className={styles.myclass1} to="/check">CheckPage</Link>
-        <Link  className={styles.myclass1} to="/main">Меню</Link>
+        <Link  className={styles.myclass1} to="/main">Главная</Link>
+        <Link  className={styles.myclass1} to="/comedy">Комедии</Link>
+        <Link  className={styles.myclass1} to="/boeviki">Боевики</Link>
+        <Link  className={styles.myclass1} to="/drama">Драмы</Link>
+        <Link  className={styles.myclass1} to="/fairytales">Сказки</Link>
+        <Link  className={styles.myclass1} to="/fantasy">Фэнтези</Link>
+        <Link  className={styles.myclass1} to="/fears">Ужасы</Link>
+        <Link  className={styles.myclass1} to="/melodrama">Мелодрамы</Link>
+        <Link  className={styles.myclass1} to="/musicl">Мюзиклы</Link>
+        <Link  className={styles.myclass1} to="/romantik">Романы</Link>
+        <Link  className={styles.myclass1} to="/science">Наука</Link>
+        <Link  className={styles.myclass1} to="/sport">Спорт</Link>
+        <Link  className={styles.myclass1} to="/trillers">Триллеры</Link>
+        
         <button 
         className={styles.myclass3}
         onClick={logoutHandler}
