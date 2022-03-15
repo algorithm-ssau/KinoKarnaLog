@@ -42,14 +42,8 @@
 
   return (
     
-    <html>
-          <head>
-            <style>
-            
-          
-            </style>
-          </head>
-          <body bgcolor="#c0c0c0" >
+    <div>
+  
             <Logo text = "KinoKarnaLog"/>
           <div className="row">
        <div className="col s6 offset-s3">
@@ -106,8 +100,8 @@
         </div>
       </div>
     </div>
-          </body>
-          </html>
+    </div>
+    
 
 
 

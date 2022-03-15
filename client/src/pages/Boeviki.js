@@ -1,12 +1,10 @@
-import React, {useContext} from 'react'
-import {AuthContext} from '../context/AuthContext'
+import React from 'react'
 import {Navbar} from '../Navbar'
 
  export const BoevikiPage = () => {
-  const auth = useContext(AuthContext)
 
   return (
-    <html>
+    <div>
           <Navbar text = "Click me"/>
           <header>
           <div style={{padding: '10px 200px 0px'}}>
@@ -16,6 +14,6 @@ import {Navbar} from '../Navbar'
             <h1>Боевики</h1>
             </div>
             
-          </html>
+          </div>
   )
 }

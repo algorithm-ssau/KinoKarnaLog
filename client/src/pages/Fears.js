@@ -3,10 +3,10 @@ import {AuthContext} from '../context/AuthContext'
 import {Navbar} from '../Navbar'
 
  export const FearsPage = () => {
-  const auth = useContext(AuthContext)
+  
 
   return (
-    <html>
+    <div>
           <Navbar text = "Click me"/>
           <header>
           <div style={{padding: '10px 200px 0px'}}>
@@ -16,6 +16,6 @@ import {Navbar} from '../Navbar'
             <h1>Ужасы</h1>
             </div>
             
-          </html>
+          </div>
   )
 }

@@ -6,7 +6,7 @@ import {Navbar} from '../Navbar'
   const auth = useContext(AuthContext)
 
   return (
-    <html>
+    <div>
           <Navbar text = "Click me"/>
           <header>
           <div style={{padding: '10px 200px 0px'}}>
@@ -16,6 +16,6 @@ import {Navbar} from '../Navbar'
             <h1>Мюзиклы</h1>
             </div>
             
-          </html>
+          </div>
   )
 }

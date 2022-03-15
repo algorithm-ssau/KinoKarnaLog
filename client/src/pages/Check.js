@@ -37,7 +37,7 @@ import { useAuth } from '../hooks/auth.hook'
 
 
   return (
-    <html>
+    <div>
           <Navbar text = "Click me"/>
           <header>
           <div style={{padding: '10px 200px 0px'}}>
@@ -47,6 +47,6 @@ import { useAuth } from '../hooks/auth.hook'
             <h1>Комедии</h1>
             </div>
             
-          </html>
+          </div>
   )
 }
