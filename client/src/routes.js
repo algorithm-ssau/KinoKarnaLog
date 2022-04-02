@@ -16,7 +16,6 @@ import { RomantikPage } from './pages/Romantik'
 import { SciencePage } from './pages/Science'
 import { SportPage } from './pages/Sport'
 import { TrillersPage } from './pages/Trillers'
-import { DocumentalPage } from './pages/DocumentalFilm'
 import { AnimePage } from './pages/AnimeFilm'
 import { HistoricalPage } from './pages/HistoryChronicles'
 
@@ -38,7 +37,6 @@ import { HistoricalPage } from './pages/HistoryChronicles'
         <Route path="/sport" element={<SportPage/>}/>
         <Route path="/trillers" element={<TrillersPage/>}/>
         <Route path="/animefilm" element={<AnimePage/>}/>
-        <Route path="/documentalfilm" element={<DocumentalPage/>}/>
         <Route path="/historychronicles" element={<HistoricalPage/>}/>
         <Route path="/" element={<Navigate to="/main"/>}/>
       </Routes>
@@ -62,7 +60,6 @@ import { HistoricalPage } from './pages/HistoryChronicles'
       <Route path="/sport" element={<Navigate to="/"/>}/>
       <Route path="/trillers" element={<Navigate to="/"/>}/>
       <Route path="/animefilm" element={<Navigate to="/"/>}/>
-      <Route path="/documentalfilm" element={<Navigate to="/"/>}/>
       <Route path="/historychronicles" element={<Navigate to="/"/>}/>
     </Routes>
   )

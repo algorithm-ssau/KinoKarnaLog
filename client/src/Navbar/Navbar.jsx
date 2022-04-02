@@ -31,7 +31,6 @@ const Navbar = (props) => {
         <Link  className={styles.myclass1} to="/sport">Спорт</Link>
         <Link  className={styles.myclass1} to="/trillers">Триллеры</Link>
         <Link  className={styles.myclass1} to="/animefilm">Аниме</Link>
-        <Link  className={styles.myclass1} to="/documentalfilm">Документалистика</Link>
         <Link  className={styles.myclass1} to="/historychronicles">Исторические хроники</Link>
         <button 
         className={styles.myclass3}
