@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import {AuthContext} from '../context/AuthContext'
 import {Navbar} from '../Navbar'
+import { Header } from '../Header'
 
  export const SciencePage = () => {
   const auth = useContext(AuthContext)
@@ -13,7 +14,7 @@ import {Navbar} from '../Navbar'
                     </div>
           </header>
           <div style={{padding: '10px 200px 0px'}}>
-            <h1>Наука</h1>
+          <Header text = "Наука"/>
             </div>
             
           </div>

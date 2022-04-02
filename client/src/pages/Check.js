@@ -5,6 +5,7 @@ import { useAuth } from '../hooks/auth.hook'
 // // import {useMessage} from '../hooks/message.hook'
   import {AuthContext} from '../context/AuthContext'
   import {Navbar} from '../Navbar'
+  import { Header } from '../Header'
 
  export const CheckPage = () => {
   const auth = useContext(AuthContext)
@@ -44,7 +45,7 @@ import { useAuth } from '../hooks/auth.hook'
                     </div>
           </header>
           <div style={{padding: '10px 200px 0px'}}>
-            <h1>Комедии</h1>
+          <Header text = "Комедии"/>
             </div>
             
           </div>

@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import {AuthContext} from '../context/AuthContext'
 import {Navbar} from '../Navbar'
+import { Header } from '../Header'
 
  export const FantasyPage = () => {
 
@@ -13,13 +14,15 @@ import {Navbar} from '../Navbar'
                     </div>
           </header>
           <div style={{padding: '10px 200px 0px'}}>
-            <h1>Фэнтези</h1>
+          <Header text = "Фэнтези"/>
             <ul>
             <li>
                <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/d906e201-8f29-42ab-8a56-9d7e882856a2/300x450"
                 width='150px' height='220px' align="top-left" hspace="2%" vspace="0.5%"></img>
                  Аркейн
-                 <p>История разворачивается в утопическом краю Пилтовер и жестоком подземном мире Заун и рассказывает о становлении двух легендарных чемпионов Лиги и о той силе, что разведёт их по разные стороны баррикад.</p>
+                 <p>История разворачивается в утопическом краю Пилтовер и жестоком подземном мире 
+                    Заун и рассказывает о становлении двух легендарных чемпионов Лиги и о той силе, 
+                    что разведёт их по разные стороны баррикад.</p>
                  <a href="https://youtu.be/k_LBADQ7jnM">Трейлер на YouTube</a>
                  
               </li>

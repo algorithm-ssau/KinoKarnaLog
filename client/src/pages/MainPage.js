@@ -6,6 +6,7 @@ import React, {useContext, useEffect} from 'react'
 // // import {useMessage} from '../hooks/message.hook'
   //import {AuthContext} from '../context/AuthContext'
   import {Navbar} from '../Navbar'
+  import { Header } from '../Header'
 
  export const MainPage = () => {
   
@@ -45,7 +46,7 @@ import React, {useContext, useEffect} from 'react'
           <Navbar text = "Click me"/>
 
           <div style={{padding: '10px 200px 0px'}}>
-            <h1>MainPage</h1>
+          <Header text = "Main Page"/>
             </div>
             
           </div>
