@@ -23,6 +23,7 @@ import { Film } from '../Film'
 
 
 <ul>
+<hr></hr>
   <Film  text_head = "One Piece" ref_video = "https://www.youtube.com/embed/videoseries?list=PLwiXUVBxx6tYJpX24FcAx8RY2BJwPkI1P"
     ref_img = "https://i.pinimg.com/originals/55/8b/ee/558bee1baf0f43717143d355e8083c06.jpg"
   text_desc ="Гол Д. Роджер — король пиратов, добившийся за свою жизнь богатства, славы и власти 

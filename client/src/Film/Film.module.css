@@ -26,7 +26,7 @@
   }
    .desc
    {
-
+      height: 320px;
     font-weight: bold ;
     margin-top: 10px;   
     margin-left: 100px;  
@@ -34,6 +34,12 @@
    }
    .check 
    {
-      margin-bottom: 200px;
+      margin-bottom: 10px;
 
+   }
+
+   .outp
+   {
+      height: 320px;
+      background-color: #05c796;
    }

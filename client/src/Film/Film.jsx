@@ -6,8 +6,8 @@ const Film = (props) => {
     const {ref_img = ''} = props;
     const {text_desc = ''} = props;
     return(
-        <div>
-<li  className={styles.check} >
+        <div className={styles.check}>
+<li  >
           
             <article>
             <div className={styles.head_text}>{text_head}</div>
@@ -18,11 +18,6 @@ const Film = (props) => {
                 </a>   
                 {text_desc}
             </p>
-       
-        
-    
-       
-      
         </li> 
         <hr></hr>
         </div>
