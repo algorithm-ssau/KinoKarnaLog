@@ -4,6 +4,7 @@ import {Navbar} from '../Navbar'
 import { Header } from '../Header'
 import { Film } from '../Film'
 
+
  export const AnimePage = () => {
     const auth = useContext(AuthContext)
 
@@ -33,8 +34,10 @@ import { Film } from '../Film'
   Ещё в детстве он ненароком съел дьявольский плод «резина-резина» и приобрёл невероятные способности.
    Повзрослев, он покидает родные места в погоне за величайшим сокровищем!"/>
 
+
+
 <Film  text_head = "Наруто" ref_video = "https://www.youtube.com/watch?v=KePpQ8kAJnI"
-    ref_img = "https://static.zerochan.net/Uzumaki.Naruto.full.390013.jpg"
+    ref_img = "https://aniyuki.com/wp-content/uploads/2021/05/aniyuki-sasuke-uchiha-69.jpg"
   text_desc ="Наруто Узумаки (яп. うずまきナルト, Узумаки Наруто) — шиноби Деревни Скрытого Листа. 
   Главный персонаж вселенной. В день своего рождения стал джинчуурики Девятихвостого Демона-Лиса — судьба, 
   из-за которой он стал изгоем для большей части людей в Конохе на протяжении всего своего детства. 
