@@ -4,7 +4,7 @@
 // import {CreatePage} from './pages/CreatePage'
 // import {DetailPage} from './pages/DetailPage'
 import {AuthPage} from './pages/AuthPage'
-import { CheckPage } from './pages/Check'
+import { ComedyPage } from './pages/Comedy'
 import { BoevikiPage } from './pages/Boeviki'
 import { DrammaPage } from './pages/Dramma'
 import { FairyTailsPage } from './pages/FairyTails'
@@ -24,7 +24,7 @@ import { HistoricalPage } from './pages/HistoryChronicles'
     return (
       <Routes>
         <Route path="/main" element={<MainPage/>}/>
-        <Route path="/comedy" element={<CheckPage/>}/>
+        <Route path="/comedy" element={<ComedyPage/>}/>
         <Route path="/boeviki" element={<BoevikiPage/>}/>
         <Route path="/drama" element={<DrammaPage/>}/>
         <Route path="/fairytales" element={<FairyTailsPage/>}/>
