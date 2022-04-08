@@ -32,6 +32,8 @@ const Navbar = (props) => {
         <Link  className={styles.myclass1} to="/trillers">Триллеры</Link>
         <Link  className={styles.myclass1} to="/animefilm">Аниме</Link>
         <Link  className={styles.myclass1} to="/historychronicles">Исторические хроники</Link>
+        < a className={styles.myclass1} href="http://127.0.0.1:5000/about">Описание фильмов</a>
+        
         <button 
         className={styles.myclass3}
         onClick={logoutHandler}

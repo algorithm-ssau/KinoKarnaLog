@@ -18,6 +18,7 @@ import { SportPage } from './pages/Sport'
 import { TrillersPage } from './pages/Trillers'
 import { AnimePage } from './pages/AnimeFilm'
 import { HistoricalPage } from './pages/HistoryChronicles'
+import { About } from './pages/About'
 
  export const useRoutes = isAuthenticated => {
   if (isAuthenticated) {
@@ -38,6 +39,7 @@ import { HistoricalPage } from './pages/HistoryChronicles'
         <Route path="/trillers" element={<TrillersPage/>}/>
         <Route path="/animefilm" element={<AnimePage/>}/>
         <Route path="/historychronicles" element={<HistoricalPage/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/" element={<Navigate to="/main"/>}/>
       </Routes>
     )
@@ -61,6 +63,7 @@ import { HistoricalPage } from './pages/HistoryChronicles'
       <Route path="/trillers" element={<Navigate to="/"/>}/>
       <Route path="/animefilm" element={<Navigate to="/"/>}/>
       <Route path="/historychronicles" element={<Navigate to="/"/>}/>
+      <Route path="/about" element={<Navigate to="/"/>}/>
     </Routes>
   )
 }
