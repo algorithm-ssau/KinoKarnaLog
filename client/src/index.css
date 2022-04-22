@@ -25,5 +25,34 @@ input.yellow-input {
     background-size: cover;
   }
 
+  .welcome_message {
+    color:gold;
+    font-size: 20px;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    padding-left: 250px;
+  }
+
+  .header__logo {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    color: gold;
+}
+.nav_authors {
+  background-color: #ffeb3b;
+}
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  color: goldenrod;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav__link:hover {
+  color: rgb(19, 181, 210);
+  transition: color 0.2s linear;
+}
 
   
