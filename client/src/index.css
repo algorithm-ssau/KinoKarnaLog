@@ -18,7 +18,11 @@ input.yellow-input {
   }
 
   body{
-    background-color: rgb(255, 153, 0);
+    width: 100%;
+    height: 100vh;
+    background: url("https://wallpaperaccess.com/full/4740137.png") center repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
 
 
