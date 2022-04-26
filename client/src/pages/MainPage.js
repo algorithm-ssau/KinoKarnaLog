@@ -76,29 +76,18 @@ import React, {useContext, useEffect} from 'react'
 
   return (
     <div>
-      <Navbar text = "Click me"/>
-      <div style={{padding: '10px 200px 0px'}}>
-        <Header text = "Main Page"/>
-      </div>
-          <div className='welcome_message'>
-            Добро пожаловать на  наш сайт! <br/>
-            KinoKarnaLog - это интернет-сервис, позволяющий пользователям смотреть фильмы и сериалы в онлайн режиме.
-            Характерной чертой, отличающей данный онлайн-кионтеатр от его аналогов, <br/>
-            является лаконичность, удобство в использовании, бесплатный доступ к предоставленным фильмам. 
-            <br/>
-            Для навигации по сайту используйте Navbar, расположенный в левой части экрана. <br/>
-            При переходе на любой жанр открывается страница с фильмами, на данный момент в которой содержатся три фильма.
-            К каждому фильму имеется постер, краткое описание фильма и ссылка на трейлер к нему. <br/>
-            <br/> <br/> <br/>
-            <div class="header_logo">Над сайтом работали:</div>
-                <nav class="nav_authors">
-                    <a class="nav__link" href="https://github.com/MaksimPir">Безумный Макс</a>
-                    <a class="nav__link" href="https://github.com/Olivka07">Оливка</a>
-                    <a class="nav__link" href="https://github.com/Theophile-Guillard">Пётр Великий</a>
-                    <a class="nav__link" href="https://github.com/kirom163">Кириллиус</a>
-                </nav>
-          </div> 
-          </div> 
+          
+          
+          <Mainpage/>
+          <Navbar text = "Click me"/>
+
+          <div style={{padding: '10px 200px 0px'}}>
+          
+            
+            
+            </div>
+          </div>
+    
 
           
       
