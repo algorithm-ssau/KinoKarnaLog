@@ -83,6 +83,7 @@ def find_desc(namefilm):
     options.add_argument("start-maximized")
     strrefs = []
     k = 1
+    razd3 = "К сожалению, такого фильма на сайте нет. =("
     try:
         driver = webdriver.Chrome(
             executable_path="chromedriver.exe",
@@ -99,7 +100,7 @@ def find_desc(namefilm):
         text = ""
         razd1 = ""
         razd2 = ""
-        razd3 = "К сожалению такого фильма на сайте нет. =("
+        razd3 = "К сожалению, такого фильма на сайте нет. =("
         while (k<=14):
             listrefs = driver.find_element_by_id(str(k))
             listrefs.click()
