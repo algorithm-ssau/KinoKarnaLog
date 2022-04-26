@@ -98,7 +98,7 @@ import React, {useContext, useEffect} from 'react'
                     <a class="nav__link" href="https://github.com/kirom163">Кириллиус</a>
                 </nav>
           </div> 
-          
+          </div> 
 
           
       
