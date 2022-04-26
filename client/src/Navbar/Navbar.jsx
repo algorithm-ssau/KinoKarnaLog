@@ -32,7 +32,10 @@ const Navbar = (props) => {
         <Link  id="12" className={styles.myclass1} to="/trillers">Триллеры</Link>
         <Link  id="13" className={styles.myclass1} to="/animefilm">Аниме</Link>
         <Link  id="14" className={styles.myclass1} to="/historychronicles">Исторические хроники</Link>
+        <br></br>
         < a className={styles.myclass1} href="http://127.0.0.1:5000/about">Описание фильмов</a>
+        <br></br>
+        <Link  id="15" className={styles.myclass1} to="/about">О нас</Link>
         
         <button 
         className={styles.myclass3}
