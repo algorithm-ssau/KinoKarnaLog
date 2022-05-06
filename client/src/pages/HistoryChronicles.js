@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import {AuthContext} from '../context/AuthContext'
 import {Navbar} from '../Navbar'
 import { Header } from '../Header'
-
+import { Film } from '../Film'
  export const HistoricalPage = () => {
   const auth = useContext(AuthContext)
 
