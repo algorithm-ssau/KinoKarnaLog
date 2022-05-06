@@ -37,7 +37,8 @@ import { Author } from '../Author'
     />
    
    <Author  name_author = "Александр" 
-    desc_author ="Пирюшов Александр Сергеевич. Студент 3 курса Самарского университета имени С.П.Королёва"
+    desc_author ="Пирюшов Александр Сергеевич. Студент 3 курса Самарского университета имени С.П.Королёва. Младший брат 
+    представителя интересов нашей команды - lil star, young bro, junior helper, а также представляю его интересы."
     ref_img="https://i.pinimg.com/originals/78/c3/4f/78c34fb5f7dfd0d4349b3f8deaa1e815.jpg"
     ref_author="https://vk.com/0livka7"
     />
