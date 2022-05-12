@@ -55,7 +55,7 @@ import { Author } from '../Author'
 <Author  name_author = "Валентина" 
     desc_author ="Улитина Валентина Александровна. Студентка 3 курса Самарского университета имени С.П.Королёва. Одна из участников команды разработчиков.
     Интересуюсь визуальной составляющей приложений и сайтов, так же улучшаю свои навыки в графредакторах. Добро пожаловать в лс :)"
-    ref_img="https://upload.wikimedia.org/wikipedia/ru/d/d1/18_Amyrose.jpg"
+    ref_img="https://i.pinimg.com/originals/46/07/8b/46078bce41a432f2dc1abfa2bc56711f.jpg"
     ref_author="https://vk.com/velllvale"
     />
    
